@@ -1,0 +1,22 @@
+// Write a program to input 10 integer values 
+// into a one dimensional array and display 
+// them using pointers.
+
+# include <stdio.h>
+# include <conio.h>
+void main()
+{
+  int a[10],i;
+  clrscr();
+  printf("Enter 10 values    \n");
+  for(i=0;i<10;i++)
+  {
+    scanf("%d",&a[i]);
+  }
+  printf("\nThe given values are  \n");
+  for(i=0;i<10;i++)
+  printf("\n The %d value is  %d",i,*(a+i));
+  getch();
+}
+
+

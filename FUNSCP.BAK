@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+int slen(char a[]);
+
+int slen(char a[],char b[])
+{
+ int i;
+ for(i=0;ch[l]!=0;i++)
+ return l;
+}
+
+void main()
+{
+ char name[30];
+ clrscr();
+ printf("Enter any sting");
+ gets(name);
+ printf("String length =%d",slen(name));
+ getch();
+}
+
+

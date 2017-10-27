@@ -1,0 +1,21 @@
+#include<stdio.h>
+main()
+{
+	int marks[50];
+	int i,n;
+	float sum=0;
+	float avg;
+	clrscr();
+	printf("Enter the number of students:");
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
+	{
+		printf("Enter marks for student %d:",i+1);
+		scanf("%d",&marks[i]);
+		sum=sum+marks[i];
+	}
+	avg=sum/n;
+	printf("The avegrage is %f",avg);
+	getch();
+
+}

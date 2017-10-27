@@ -1,0 +1,16 @@
+/* declaration and intilization*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c=20;
+	a=10;
+	b=30;
+	clrscr();
+	printf(" a value = %d",a);
+	printf("b value = %d",b);
+	printf("c value = %d",c);
+	getch();
+
+
+}

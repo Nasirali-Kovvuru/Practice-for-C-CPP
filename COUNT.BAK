@@ -1,0 +1,23 @@
+/* print your */
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	long int n,a,ec,oc,zc;
+	clrscr();
+	printf("Enter a no");
+	scanf("%d",&n);
+	for(ec=0, oc=0, zc=0 ; n!=0 ; n/=10)
+	{
+	 a=n%10;
+	 if(a==0)
+	  zc++;
+	 else if(a%2==0)
+	  ec++;
+	 else
+	  oc++;
+	}
+	  printf("Even Count=%d\n,Odd count = %d\n,Zeros count =%d\n",ec,oc,zc);
+
+	getch();
+}

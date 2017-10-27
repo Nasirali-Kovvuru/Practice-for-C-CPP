@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+void dispaly()
+{
+printf("\n\n\tWellcome:");
+}
+void add(int a,int b)
+{
+int c=a+b;
+printf("\n\n\tAddition is:%d",c);
+}
+int add1()
+{
+int a=10,b=20;
+return a+b;
+}
+int add2(int a,int b)
+{
+return a+b;
+}
+void main()
+{
+clrscr();
+display();
+add(10,20);
+add1();
+add2(10,20);
+getch();
+
+}

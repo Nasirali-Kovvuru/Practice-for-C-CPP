@@ -1,0 +1,19 @@
+void inpt(int a[]);
+void disp(int a[]);
+void add(int a[],int b[],int c[]);
+
+void inpt(int a[])
+{
+  int i;
+  for(i=0;i<5;i++)
+  scanf("%d",&a[i]);
+}
+void disp(int a[])
+{
+  int i;
+  for(i=0;i<5;i++)
+  {
+   printf("%d",a[i]);
+   printf("\n");
+  }
+}

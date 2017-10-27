@@ -1,0 +1,17 @@
+/*program to print factorial of a number*/
+#include<stdio.h>
+main()
+{
+	int n;
+	long res=1;
+	clrscr();
+	printf("Enter a number");
+	scanf("%d",&n);
+	while(n>=1)
+	{
+		res=res*n;
+		n=n-1;
+	}
+	printf("Factorial of %d is %ld",n,res);
+	getch();
+}

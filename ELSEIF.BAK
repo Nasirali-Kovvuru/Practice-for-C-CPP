@@ -1,0 +1,9 @@
+/* program to compare 3 numbers*/
+#include<stdio.h>
+void main()
+{
+  clrscr();
+  printf("HelloHelloHelloHelloHello");
+  getch();
+
+}

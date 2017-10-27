@@ -1,0 +1,31 @@
+#include<stdio.h>
+	struct student
+	{
+		char name[50];
+		int age;
+	};
+
+main()
+{
+	struct student s1,s2;
+	void modify(struct student*,struct student*);
+	clrscr();
+	printf("Enter the data for student1:");
+	scanf("%s%d",s1.name,&s1.age);
+	printf("Enter the data for student2:");
+	scanf("%s%d",s2.name,&s2.age);
+
+	modify(&s1,&s2);
+	printf("After modify name=%s and age=%d\n",s1.name,s1.age);
+	printf("After modify name=%s and age=%d\n",s2.name,s2.age);
+	getch();
+}
+
+void modify(struct student *p,struct student *q)
+{
+	strcpy(p->name,"Ajay");
+	p->age=20;
+	strcpy(q->name,"Ajay");
+	q->age=20;
+
+}

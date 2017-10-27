@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+struct book
+{
+int pages;
+char name[20];
+float price;
+};
+void main()
+{
+struct book b1={100,"clanguage",200.50};
+clrscr();
+printf("\n%d",b1.pages);
+printf("\n%s",b1.name);
+printf("\n%f",b1.price);
+getch();
+}

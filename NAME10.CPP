@@ -1,0 +1,15 @@
+/* print your name times*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i;
+	clrscr();
+	i=1;
+	while(i<=10)
+	{
+	 printf("Raghu");
+	 i++;
+	}
+	getch();
+}

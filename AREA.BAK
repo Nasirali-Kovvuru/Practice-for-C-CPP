@@ -1,0 +1,13 @@
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char area[4],[20]={"hyd","sec","ameerpet","srnagar"};
+clrscr();
+for(int i=0;i<=3;i++)
+{
+printf("\n%s",area[i]);
+}
+getch();
+}

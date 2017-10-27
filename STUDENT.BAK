@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+	char name[50];
+	clrscr();
+	printf("Enter a string:");
+	/*scanf("%s",name);*/
+	gets(name);
+
+	/*printf("The string entered is %s",name);*/
+	puts(name);
+
+	getch();
+}

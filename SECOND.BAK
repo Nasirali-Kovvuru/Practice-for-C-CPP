@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+textcolor("RED");
+cprintf("\n\n\tWellcome to c language:");
+cprintf("\n\n\tWellcome to naresh it:");
+cprintf("\n\n\tWellcome to c hyderabad:");
+getch();
+}

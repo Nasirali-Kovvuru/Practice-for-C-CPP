@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int fact(int);
+void main()
+{
+ clrscr();
+ printf("%d",fact(5));
+ getch();
+}
+int fact(int x)
+{
+ if(n==0)
+  return 0
+ else
+  {
+   a=n%10;
+
+}

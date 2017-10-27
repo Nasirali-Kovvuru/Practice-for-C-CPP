@@ -1,0 +1,11 @@
+/*program to add 2 matrices using function*/
+#include<stdio.h>
+main()
+{
+	char str[]="hello";
+	int len;
+	clrscr();
+	len=strlen(str);
+	printf("%d",len);
+	getch();
+}

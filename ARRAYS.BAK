@@ -1,0 +1,12 @@
+/* format print */
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+	int a[5]={10,2,2,3,6};
+	clrscr();
+	printf("%d%d%d%d%d",a[0],a[1],a[2],a[3],a[4]);
+	getch();
+}
+

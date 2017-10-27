@@ -1,0 +1,28 @@
+#include<stdio.h>
+main()
+{
+	struct date
+	{
+		unsigned int day : 5;
+		unsigned int month : 4;
+		unsigned int year: 7;
+	};
+	struct date dob={31,12,76};
+	struct date dob1;
+	unsigned int d,m,y;
+
+	clrscr();
+	printf("%d\n",sizeof(dob));
+	printf("%d\n",sizeof(dob1));
+	printf("%u %u %u",dob.day,dob.month,dob.year);
+
+	printf("Enter the date");
+	scanf("%u%u%u", &d,&m,&y);
+	dob1.day=d;
+	dob1.month=m;
+	dob1.year=y;
+	printf("%u %u %u",dob1.day,dob1.month,dob1.year);
+
+	getch();
+
+}

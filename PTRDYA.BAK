@@ -1,0 +1,17 @@
+/* void pointer*/
+#include<stdio.h>
+#include<conio.h>
+	union student
+	{
+		int age,g,a,l;
+		float f;
+	};
+void main()
+{
+	union student s1={20},s2;
+	clrscr();
+	printf("%d",sizeof(s2));
+	getch();
+}
+
+

@@ -1,0 +1,25 @@
+/*program to print fibonacci series*/
+#include<stdio.h>
+main()
+{
+	int n,num1=0,num2=1,res,i;
+	clrscr();
+	printf("Enter the value of n");
+	scanf("%d",&n);
+	if(n==1)
+		printf("%d",num1);
+	else if(n==2)
+		printf("%d %d",num1,num2);
+	else
+	{
+		printf("%d %d ",num1,num2);
+		for(i=3;i<=n;i++)
+		{
+			res=num1+num2;
+			printf("%d ",res);
+			num1=num2;
+			num2=res;
+		}
+	}
+	getch();
+}

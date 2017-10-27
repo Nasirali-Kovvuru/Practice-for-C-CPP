@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[2][2],b[2][2],c[2][2];int i,j;
+clrscr();
+printf("\n\n\tEnter your array elements:\n");
+for(i=0;i<=1;i++)
+{
+for(j=0;j<=1;j++)
+{
+scanf("%d",&a[i][j]);
+}
+printf("\n");
+}
+printf("\n\n\tEnter second array elements:");
+for(i=0;i<=1;i++)
+{
+for(j=0;j<=1;j++)
+{
+scanf("%d",&b[i][j]);
+}
+printf("\n");
+}
+printf("\n\n\tAddition of two matrices is:\n");
+for(i=0;i<=1;i++)
+{
+for(j=0;j<=1;j++)
+{
+c[i][j]=0;
+c[i][j]=c[i][j]+a[i][j]*b[i][j];
+printf("%2d",c[i][j]);
+}
+printf("\n");
+}
+}

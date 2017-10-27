@@ -1,0 +1,38 @@
+#include<stdio.h>
+main()
+{
+	struct student
+	{
+		char name[50];
+		int age;
+	};
+	struct student *p;
+	int i,n;
+	clrscr();
+	printf("Enter the number of students:");
+	scanf("%d",&n);
+	p=calloc(n,sizeof(struct student));
+	if(p==NULL)
+	{
+		printf("Unable to allocate memory");
+		exit(0);
+	}
+
+	for(i=0;i<n;i++)
+	{
+		printf("Enter the marks for student %d",i+1);
+		scanf("%s%d",(p+i)->name,&((p+i)->age));
+	}
+
+	printf("The marks are\n");
+	for(i=0;i<n;i++)
+	{
+		printf("%s %d\n",(p+i)->name,(p+i)->age);
+		/*printf("%s %d\n",p[i].name,p[i].age);*/
+	}
+	free(p);
+	getch();
+}
+
+
+realloc

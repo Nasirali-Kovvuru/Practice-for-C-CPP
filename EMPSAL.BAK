@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+double basic,hra,da,ta,pf,it,grossal;
+clrscr();
+printf("\n\n\tEnter Emp basic sal:");
+scanf("%lf",&nbasic);
+hra=0.5*basic;
+da=0.4*basic;
+ta=0.3*basic;
+pf=0.2*basic;
+it=0.1*basic;
+grossal=basic+hra+da+ta+pf+it;
+clrscr();
+printf("Emp basic sal is:%lf",basic);
+
+printf("Emp Hra is:%lf",hra);
+
+printf("Emp da  is:%lf",da);
+printf("Emp ta  is:%lf",ta);
+
+printf("Emp pf is:%lf",pf);
+
+printf("Emp it is:%lf",it);
+
+printf("Emp Gross sal is:%lf",grossal);
+
+
+getch();
+
+}
